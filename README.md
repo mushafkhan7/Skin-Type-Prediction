@@ -21,10 +21,10 @@ def load_and_preprocess_images(directory, label, image_size=(128, 128), clahe_cl
 
 This function loads and preprocesses images from a specified directory.
 
-### Data Paths
+### Data Paths 
 
 ```python
-base_path = 'C:\\Users\\musha\\Downloads\\archive (1)\\Oily-Dry-Skin-Types\\'
+base_path = 'C:\\Users\\username\\Downloads\\archive (1)\\Oily-Dry-Skin-Types\\'
 train_dry = os.path.join(base_path, 'train/dry')
 train_normal = os.path.join(base_path, 'train/normal')
 train_oily = os.path.join(base_path, 'train/oily')
@@ -167,5 +167,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 - **Mushaf Khan** - *Initial work* - [GitHub Profile](https://github.com/mushafkhan7)
 ```
-
-You can copy and paste this Markdown content into your README.md file, which will include the code with explanations under appropriate headings. Let me know if you need further assistance!
